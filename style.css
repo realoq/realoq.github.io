@@ -1,0 +1,233 @@
+@font-face {
+  font-family: Lato;
+  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Lato-Regular.woff2);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Jost-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Jost-Medium.ttf);
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Jost-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Jost-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Jost-ExtraBold.ttf);
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Poppins-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Poppins-Medium.ttf);
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Poppins-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Poppins-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Poppins-ExtraBold.ttf);
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+
+html {
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-size: 15px;
+  color: #000;
+  overflow-x: hidden !important;
+  margin: 0;
+  font-family: "Jost", sans-serif;
+}
+
+.jost-font {
+  font-family: "Jost", sans-serif;
+}
+
+.text-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.text-gradient {
+  background: linear-gradient(95.68deg, #8ea501 4.78%, #00c1b6 95.83%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-card-border-gradient1 {
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(180deg, rgba(158, 184, 0, 0.2) 0%, #00c1b6 100%) border-box;
+}
+
+.hero-card-border-gradient2 {
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(180deg, rgba(158, 184, 0, 0.41) 0%, #00c1b6 100%) border-box;
+}
+
+.section-heading-gradient {
+  letter-spacing: 0.04em;
+  background: linear-gradient(95.68deg, #8ea501 4.78%, #00c1b6 95.83%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.heading-stroke-gradient {
+  background: linear-gradient(
+    180deg,
+    #97b90a 0%,
+    #13c1a2 100%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 3px transparent;
+  color: #fff;
+}
+
+.heading-stroke-transparent {
+  letter-spacing: 0.08em;
+  font-size: 100px;
+  line-height: 150px;
+  -webkit-text-stroke: 1px #fff;
+  color: transparent;
+  opacity: 0.5;
+}
+
+.home-banner {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.065) -3.75%,
+    rgba(0, 0, 0, 0.65) 85.95%
+  );
+  height: 280px;
+  width: 100%;
+}
+
+.nav-btn-gradient {
+  border: solid 3px transparent;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(93.36deg, #9eb800 7.1%, #00c1b6 94.59%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.button-text-gradient {
+  letter-spacing: 0.02em;
+  background: linear-gradient(91.49deg, #9eb800 0%, #00c1b6 99.72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.button-gradient-fill-type1 {
+  background: linear-gradient(97.55deg, #9eb800 9.7%, #00c1b6 92.51%);
+}
+
+.button-gradient-fill-type2 {
+  background: linear-gradient(101.23deg, #9eb800 0%, #00c1b6 93.74%);
+}
+
+.button-gradient-fill-type3 {
+  background: linear-gradient(180deg, #9eb800 0%, #00c1b6 100%);
+}
+
+.footer-bg1 {
+  background: url("https://rqassets.sfo3.digitaloceanspaces.com/images/BG_Lines.svg")
+      center no-repeat,
+    linear-gradient(139.95deg, #9eb800 2.53%, #00c1b6 100%);
+  background-size: 90%, 100%;
+}
+
+/* mobile screen media query */
+@media only screen and (max-width: 767px) {
+  .hero-card-border-gradient1 {
+    border-left: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+  .hero-card-border-gradient2 {
+    border-left: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+  .home-banner {
+    height: 130px;
+  }
+}
+
+/* ------ to stop auto zoom in iPhones ------ */
+@media screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2) {
+  select,
+  select:focus,
+  textarea,
+  textarea:focus,
+  input,
+  input:focus {
+    font-size: 16px !important;
+  }
+}
