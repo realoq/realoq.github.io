@@ -38,6 +38,13 @@
     />
     <meta name="twitter:card" content="summary_large_image" />
 
+    <!-- font-awesome 6.4.0 cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- tailwind cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -667,11 +674,177 @@
     </div>
 
     <!-- Footer -->
-    <footer
-      class="h-[260px] md:h-[530px] w-full relative mt-14 md:mt-40 footer-bg1 pt-10 md:pt-40"
-    >
+    <footer class="h-auto w-full relative mt-14 md:mt-40 footer-bg1">
       <div
-        class="bg-footer-home-design-mob md:bg-footer-home-design h-[180px] md:h-[300px] bg-repeat-x mt-10 md:mt-20"
+        class="px-3 sm:px-10 xl:px-20 flex flex-col md:flex-row justify-between items-start pt-8 md:pt-16"
+      >
+        <div class="w-full">
+          <img
+            src="https://rqassets.sfo3.digitaloceanspaces.com/images/realoq-logo-footer.svg"
+            height="60"
+            width="92"
+            alt="logo"
+          />
+          <div>
+            <div
+              class="text-[#fcfbff] text-[16px] leading-[23px] md:text-lg md:leading-[30px] mt-2 mb-3 md:mb-5 opacity-80"
+            >
+              <p class="hidden md:block">
+                RealoQ partners with the pros: <br />
+                experienced, knowledgeable Real estate <br />
+                agents and Mortgage lenders
+              </p>
+              <p class="block md:hidden">
+                RealoQ partners with the pros: experienced, knowledgeable Real
+                estate agents and Mortgage lenders
+              </p>
+            </div>
+            <div
+              class="flex items-start md:items-center gap-x-3 text-white opacity-80 font-bold text-[14px] leading-[21px] md:text-[18px] md:leading-[34px] mb-2 md:mb-3"
+            >
+              <i
+                class="fa-solid fa-location-dot text-[#fcfbff] text-[16px] md:text-[22px] mt-1 md:mt-0"
+              ></i>
+              <p>2001 Clayton Road Suite 200, Concord, CA, 94520</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col md:flex-row justify-between text-white w-full landscape:w-full landscape:md:w-[62%] mt-10 md:mt-0"
+        >
+          <div>
+            <h2
+              class="font-bold text-[20px] md:text-[26px] leading-8 mb-2 md:mb-6"
+            >
+              Our Service
+            </h2>
+            <div
+              class="flex flex-row flex-wrap gap-x-10 md:flex-col md:gap-x-0"
+            >
+              <p
+                class="text-[14px] leading-[20px] md:text-lg md:leading-[34px] font-medium opacity-80 md:mb-2"
+              >
+                <a href="#">Buy a Home</a>
+              </p>
+              <p
+                class="text-[14px] leading-[20px] md:text-lg md:leading-[34px] font-medium opacity-80 md:mb-2"
+              >
+                <a href="#">Mortgage</a>
+              </p>
+              <p
+                class="text-[14px] leading-[20px] md:text-lg md:leading-[34px] font-medium opacity-80"
+              >
+                <a href="#">Agents</a>
+              </p>
+            </div>
+          </div>
+          <div class="md:ml-5 mt-7 md:mt-0">
+            <h2
+              class="font-bold text-[20px] md:text-[26px] leading-8 mb-2 md:mb-6"
+            >
+              Informations
+            </h2>
+            <div
+              class="flex flex-row flex-wrap gap-x-6 gap-y-3 md:flex-col md:gap-x-0 md:gap-y-0"
+            >
+              <p
+                class="text-[14px] leading-[20px] md:text-lg md:leading-[34px] font-medium opacity-80 md:mb-2"
+              >
+                <a href="#">Manage home loans</a>
+              </p>
+              <p
+                class="text-[14px] leading-[20px] md:text-lg md:leading-[34px] font-medium opacity-80 md:mb-2"
+              >
+                <a href="#">Conditional Approval</a>
+              </p>
+              <p
+                class="text-[14px] leading-[20px] md:text-lg md:leading-[34px] font-medium opacity-80 md:mb-2"
+              >
+                <a href="#">Glossary of terms</a>
+              </p>
+              <p
+                class="text-[14px] leading-[20px] md:text-lg md:leading-[34px] font-medium opacity-80 md:mb-2"
+              >
+                <a href="#">Credit guides</a>
+              </p>
+              <p
+                class="text-[14px] leading-[20px] md:text-lg md:leading-[34px] font-medium opacity-80"
+              >
+                <a href="#">Privacy Policy</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr
+        class="border-t-[2px] h-[2px] border-t-white opacity-20 mt-10 md:mt-16 mb-40 md:mb-60 w-[90%] mx-auto"
+      />
+
+      <hr
+        class="border-t-[2px] h-[2px] border-t-white opacity-20 mt-40 md:mt-60 mb-8 md:mb-12 w-[90%] mx-auto"
+      />
+
+      <div
+        class="px-3 sm:px-10 xl:px-20 flex flex-col sm:flex-row justify-between"
+      >
+        <div class="text-center md:text-left">
+          <p
+            class="text-[14px] leading-[22px] md:text-xl tracking-wide text-[#fcfbff] capitalize"
+          >
+            Copyright: &copy; 2023 RealoQ. All rights reserved.
+          </p>
+        </div>
+        <div
+          class="flex flex-row gap-x-4 mt-6 sm:mt-0 justify-center md:justify-end"
+        >
+          <a
+            href="#"
+            class="bg-white rounded-full h-[30px] w-[30px] flex items-center justify-center"
+            aria-label="pinterest account"
+          >
+            <i class="fa-brands fa-pinterest-p text-[#00c1b6] text-[15px]"></i>
+          </a>
+          <a
+            href="#"
+            class="bg-white rounded-full h-[30px] w-[30px] flex items-center justify-center"
+            aria-label="youtube account"
+          >
+            <i class="fa-brands fa-youtube text-[#00c1b6] text-[15px]"></i>
+          </a>
+          <a
+            href="#"
+            class="bg-white rounded-full h-[30px] w-[30px] flex items-center justify-center"
+            aria-label="instagram account"
+          >
+            <i class="fa-brands fa-instagram text-[#00c1b6] text-[15px]"></i>
+          </a>
+          <a
+            href="#"
+            class="bg-white rounded-full h-[30px] w-[30px] flex items-center justify-center"
+            aria-label="facebook account"
+          >
+            <i class="fa-brands fa-facebook-f text-[#00c1b6] text-[15px]"></i>
+          </a>
+          <a
+            href="#"
+            class="bg-white rounded-full h-[30px] w-[30px] flex items-center justify-center"
+            aria-label="linkedin account"
+          >
+            <i class="fa-brands fa-linkedin-in text-[#00c1b6] text-[15px]"></i>
+          </a>
+          <a
+            href="#"
+            class="bg-white rounded-full h-[30px] w-[30px] flex items-center justify-center"
+            aria-label="twitter account"
+          >
+            <i class="fa-brands fa-twitter text-[#00c1b6] text-[15px]"></i>
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="bg-footer-home-design-mob md:bg-footer-home-design h-[180px] md:h-[300px] bg-repeat-x mt-20"
       ></div>
     </footer>
   </body>
