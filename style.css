@@ -1,39 +1,39 @@
 @font-face {
   font-family: Lato;
-  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Lato-Regular.woff2);
+  src: url(https://rqstatic.com/fonts/Lato-Regular.woff2);
   font-display: swap;
 }
 @font-face {
   font-family: "Jost";
-  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Jost-Regular.ttf);
+  src: url(https://rqstatic.com/fonts/Jost-Regular.ttf);
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: "Jost";
-  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Jost-Medium.ttf);
+  src: url(https://rqstatic.com/fonts/Jost-Medium.ttf);
   font-style: normal;
   font-weight: 500;
   font-display: swap;
 }
 @font-face {
   font-family: "Jost";
-  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Jost-SemiBold.ttf);
+  src: url(https://rqstatic.com/fonts/Jost-SemiBold.ttf);
   font-style: normal;
   font-weight: 600;
   font-display: swap;
 }
 @font-face {
   font-family: "Jost";
-  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Jost-Bold.ttf);
+  src: url(https://rqstatic.com/fonts/Jost-Bold.ttf);
   font-style: normal;
   font-weight: 700;
   font-display: swap;
 }
 @font-face {
   font-family: "Jost";
-  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Jost-ExtraBold.ttf);
+  src: url(https://rqstatic.com/fonts/Jost-ExtraBold.ttf);
   font-style: normal;
   font-weight: 800;
   font-display: swap;
@@ -41,35 +41,35 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Poppins-Regular.ttf);
+  src: url(https://rqstatic.com/fonts/Poppins-Regular.ttf);
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Poppins-Medium.ttf);
+  src: url(https://rqstatic.com/fonts/Poppins-Medium.ttf);
   font-style: normal;
   font-weight: 500;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Poppins-SemiBold.ttf);
+  src: url(https://rqstatic.com/fonts/Poppins-SemiBold.ttf);
   font-style: normal;
   font-weight: 600;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Poppins-Bold.ttf);
+  src: url(https://rqstatic.com/fonts/Poppins-Bold.ttf);
   font-style: normal;
   font-weight: 700;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url(https://rqassets.sfo3.digitaloceanspaces.com/fonts/Poppins-ExtraBold.ttf);
+  src: url(https://rqstatic.com/fonts/Poppins-ExtraBold.ttf);
   font-style: normal;
   font-weight: 800;
   font-display: swap;
@@ -195,7 +195,7 @@ body {
 }
 
 .footer-bg1 {
-  background: url("https://rqassets.sfo3.digitaloceanspaces.com/images/BG_Lines.svg")
+  background: url("https://rqstatic.com/images/BG_Lines.svg")
       center no-repeat,
     linear-gradient(139.95deg, #9eb800 2.53%, #00c1b6 100%);
   background-size: 90%, 100%;
